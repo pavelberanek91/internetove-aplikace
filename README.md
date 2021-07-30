@@ -29,16 +29,16 @@ Z důvodu úzkého zaměření na technologie nalezne posluchač v rozšiřujíc
 Tato tabulka obsahuje odkazy na další užitečné lekce z oblasti vývoje internetových aplikací.
 |lekce|obsah|video|
 |---|---|---|
-|xx|Design webových stránek - UX, UI, wireframes|xxx|
-|xx|Struktura webových stránek - HTML5|xxx|
-|xx|Grafika webových stránek - CSS3|xxx|
-|xx|Responzivní webdesign - Bootstrap|xxx|
-|xx|Typový javascript - Typestrict, Flow|xxx|
-|xx|Javascriptové stacky - MEAN, MERN, MEVN|xxx|
-|xx|PHP Frameworky - Laravel|xxx|
-|xx|Služby - REST API, SOAP API|xxx|
-|xx|PHP ORM - Doctrine|xxx|
-|xx|Caching a vyhledávání - RabbitMQ, Redis, Elasticsearch|xxx|
-|xx|Testování - PHPUnit, PHPStan, PHPCS|xxx|
-|xx|CI/CD - GitHub Actions, Cronjobs|xxx|
-|xx|Nasazení webových aplikací - Docker, Kubernetes, Heroku|xxx|
+|14|Design webových stránek - UX, UI, wireframes|xxx|
+|15|Struktura webových stránek - HTML5|xxx|
+|16|Grafika webových stránek - CSS3|xxx|
+|17|Responzivní webdesign - Bootstrap|xxx|
+|18|Typový javascript - Typestrict, Flow|xxx|
+|19|Javascriptové stacky - MEAN, MERN, MEVN|xxx|
+|20|PHP Frameworky - Laravel|xxx|
+|21|Služby - REST API, SOAP API|xxx|
+|22|PHP ORM - Doctrine|xxx|
+|23|Caching a vyhledávání - RabbitMQ, Redis, Elasticsearch|xxx|
+|24|Testování - PHPUnit, PHPStan, PHPCS|xxx|
+|25|CI/CD - GitHub Actions, Cronjobs|xxx|
+|26|Nasazení webových aplikací - Docker, Kubernetes, Heroku|xxx|
