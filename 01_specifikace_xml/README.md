@@ -16,7 +16,8 @@ Pro všechna cvičení na XML vám bude stačit následující tutorial na W3 sc
 Na stránce [W3 Schools XML Tree](https://w3schools.com/xml/xml_tree.asp) vidíte grafickou reprezentaci xml kódu pomocí stromové struktury. Pod obrázkem naleznete
 kód k příslušnému stromu. Vaším úkolem je vytvořit návrh struktury xml dokumentu podle následující klientské specifikace:
 > Chtěl bych vytvořit webovou aplikaci pro receptář alkoholových koktejlů. Kdokoliv, kdo otevře webovou stránku, tak může nahrát XML soubor s vlastním receptem.
-> Lorem
+> Klient může naráz nahrát více receptů a o každém receptu budu potřebovat ukládat stejné informace, jako jsou na následující webové stránce: [Míchané drínky](https://michanedrinky.cz).
+
 ### 1.Cv4 XML DTD
 
 ### 1.Cv5 XSD Schema
