@@ -7,15 +7,19 @@ Pro všechna cvičení na XML vám bude stačit následující tutorial na W3 sc
 
 ## On-site cvičení
 
-### 1.1 XML kód
+### 1.Cv1 XML kód
 
-### 1.2 XML služby
+### 1.Cv2 XML služby
 
-### 1.3 Návrh XML stromu
+### 1.Cv3 Návrh XML stromu
 
-### 1.4 XML DTD
+Na stránce [W3 Schools XML Tree](https://w3schools.com/xml/xml_tree.asp) vidíte grafickou reprezentaci xml kódu pomocí stromové struktury. Pod obrázkem naleznete
+kód k příslušnému stromu. Vaším úkolem je vytvořit návrh struktury xml dokumentu podle následující klientské specifikace:
+> Chtěl bych vytvořit webovou aplikaci pro receptář alkoholových koktejlů. Kdokoliv, kdo otevře webovou stránku, tak může nahrát XML soubor s vlastním receptem.
 
-### 1.5 XSD Schema
+### 1.Cv4 XML DTD
+
+### 1.Cv5 XSD Schema
 
 ## Domácí cvičení
 
