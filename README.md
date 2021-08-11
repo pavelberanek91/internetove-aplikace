@@ -11,19 +11,19 @@ Z důvodu úzkého zaměření na technologie nalezne posluchač v rozšiřujíc
 
 |lekce|datum|obsah|video|
 |---|---|---|---|
-|01|xx.xx.xx|Značkovací jazyk XML, specifikace XML - XML, DTD|xxx|
-|02|xx.xx.xx|Popisný jazyk XSD - XML Schemata|xxx|
-|03|xx.xx.xx|Zobrazení XML souborů - XSLT, XPath|xxx|
-|04|xx.xx.xx|XML DOM, Javascript a XML DOM - XML DOM, XQuery|xxx|
-|05|xx.xx.xx|HTML DOM, Javascript a HTML|xxx|
+|01|xx.xx.xx|Značkovaní XML - XML, DTD|xxx|
+|02|xx.xx.xx|Popisování XML - XSD|xxx|
+|03|xx.xx.xx|Zobrazování XML - XSLT, XPath, CSS3, Bootstrap|xxx|
+|04|xx.xx.xx|Procházení XML - XML DOM, XQuery|xxx|
+|05|xx.xx.xx|Procházení HTML - HTML DOM, Javasctipz|xxx|
 |06|xx.xx.xx|Jazyk PHP|xxx| 
-|07|xx.xx.xx|PHP (ukládání dat, Cookie a session)|xxx| 
-|08|xx.xx.xx|PHP (grafika) - SVG, Canvas, Bootstrap|xxx|
-|09|xx.xx.xx|PHP (práce s objekty) - OOP PHP|xxx|
-|10|xx.xx.xx|PHP a XML DOM, PHP (simpleXML)|xxx| 
-|11|xx.xx.xx|PHP a AJAX|xxx|
-|12|xx.xx.xx|PHP (práce s databázemi) - MariaDB a PHP|xxx|
-|13|xx.xx.xx|PHP - webové aplikace|xxx|
+|07|xx.xx.xx|Ukládání PHP - ukládání dat, Cookie, session|xxx| 
+|08|xx.xx.xx|Vykreslování PHP - SVG, Canvas|xxx|
+|09|xx.xx.xx|Objektové PHP|xxx|
+|10|xx.xx.xx|Procházení PHP - simpleXML|xxx| 
+|11|xx.xx.xx|Aktualizace PHP - AJAX|xxx|
+|12|xx.xx.xx|Databáze PHP - MariaDB|xxx|
+|13|xx.xx.xx|Frameworky PHP - Laravel|xxx|
 
 ### Rozšiřující lekce
 Tato tabulka obsahuje odkazy na další užitečné lekce z oblasti vývoje internetových aplikací.

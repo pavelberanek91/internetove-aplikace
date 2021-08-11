@@ -1,4 +1,4 @@
-# 3. Zobrazeni XML
+# 4. Zobrazeni XML
 
 Pokud XML představují jen holá data s významem, splňující schéma XSD, pak otázkou zůstává, jak tato holá validní data předat uživateli. Možností je napsat si aplikaci, která XML parsuje pomocí nějaké knihovny (případně si napsat vlastní parser) a vizualizovat je pomocí nějaké GUI knihovny. Chytřejší možností transformovat data na jiná, které rozumíme běžně používané aplikace (PDF čtečky, webové prohlížeče). K takové transformaci slouží jazyk XSLT (eXtensible Stylesheet Language Transformations), který představuje obdobu kaskádových stylů, ale XSLT je daleko mocnější stylový jazyk. Příklad XSLT naleznete na [W3Schools XML XSLT](https://w3schools.com/xml/xml_xslt.asp).
 
