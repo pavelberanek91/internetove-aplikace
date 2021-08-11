@@ -7,20 +7,94 @@ Pro všechna cvičení na XML vám bude stačit následující tutorial na W3 sc
 
 ## On-site cvičení
 
-### 1.Cv1 XML kód
+### 1.Cv1 XML kód (30 minut)
 
-### 1.Cv2 XML služby
+Pravděpodobně jste se již někdy setkali s XML kódem a pokud ne, tak jste si ještě pravděpodobněji setkali s HTML kódem, který představuje podmnožinu XML. Jazyk XML
+představuje standard pro počítačová data, které je možné vyměňovat mezi různými platformami. Mohu například stáhnout data z databáze a zobrazit je na mobilní aplikaci,
+webové stránce, textovém dokumentu nebo si je ponechat v raw podobě.
 
-### 1.Cv3 Návrh XML stromu
+Prohlédněte si ukázku XML kódu pro popis dat na následujícím odkazu: [W3Schools XML Introduction](https://w3schools.com/xml/xml_whatis.asp)
+
+Každý xml kód se zkládá z elementů, které představují dvojici data a značka (tag): [W3Schools XML Elements](https://w3schools.com/xml/xml_elements.asp)
+
+K datům je dále možné přidat atributy, které přidávají dodatečnou informaci: [W3Schools XML Attributes](https://w3schools.com/xml/xml_attributes.asp)
+
+Místo atributů je možné využít další element a neexistuje žádný standard k tomu, jaká informace by měla být dodána jako element a jaká jako atribut. Já osobně 
+doporučuji, aby elementy byly informace pro čtenáře a atributy informy pro aplikaci, kterou XML soubor zpracováváte.
+
+Jelikož mohou mít XML elementy stejné názvy, ale zcela jiný význam, mohly by se elementy při zpracování aplikací plést. Z toho důvodu je možné k elementům přidat
+prefix, který elementy dále kategorizuje do jmenných prostorů. Příklad může být problém table jako stolu a table jako tabulky: [W3Schools XML Namespaces](https://w3schools.com/xml/xml_namespaces.asp)
+
+Vaším úkolem je vytvořit vlastní XML soubor, podle následující specifikace klienta:
+> Naše aplikace pro učitele na základní a střední škole, sloužící pro vyhledávání návodů na fyzikální pokusy, bude používat pro ukládání dat o pokusech XML soubory.
+> Každý pokus bude v jednom XML souboru a potřebuje mít v sobě uložené následující informace: název experimentu, jméno autora, vhodné ročníky pro demonstraci, pomůcky,
+> návod. Každá pomůcka by měla být element sám o sobě. Ročníky budou zpracované jen strojově při filtrování a vyhledávání v databázi a klient tuto informace neuvidí.
+> Navrhněte jeden ukázkový XML soubor podle této specifikace.
+
+
+### 1.Cv2 Well Formed XML (20 minut)
+
+XML představuje velice jednoduchý formát kódu, jelikož je struktura téměr celá na vás. Existuje pouze pár pravidel [W3Schools XML Syntaxe](https://w3schools.com/xml/xml_syntax.asp). Pokud je dodržíte, pak je váš XML dokument považován za tzv. "Well Formed":
+1. XML dokument musí obsahovat kořenový element (nemá sourozence, jen děti)
+2. Pokud má XML dokument prolog (používáme pro specifikaci kódování, defaultně UTF-8), pak musí být prvním řádkem souboru
+3. Všechny elementy musí být uzavřené (výjimku tvoří prolog)
+4. Elementy jsou case sensitive
+5. Elementy musí být řádně zanořené
+6. Hodnoty atributů musí být v uvozovkách
+7. Některé znaky mají speciální význam a proto musí být vloženy jako entity
+8. Komentáře nesmí obsahovat dvě pomlčky jinde, než na konci komentáře
+9. Bílé znaky nejsou ořezávány
+10. Zalomení na nový řádek je znak LF (line feed) - nutné řešit při problémech s parsováním ve Windows
+
+Zda je XML "Well Formed" lze otestovat pomocí XML validátorů: [W3Schools XML Validator](https://w3schools.com/xml/xml_validator.asp)
+
+Vaším úkolem je prohlédnout si následující XML kód a opravit ho tak, aby byl "Well Formed" a otestovat validátorem:
+
+```
+<kniha>
+    <!-- každá kniha obsahuje dva názvy a to český a anglický -- specifikováno atributem -->
+    <název jazyk=cz>Epos o Berygamešovi
+    <název jazyk=en>Epic of Berygamesh
+    <Autor>Jiří Fišer</autor>
+    <postavy><postava>Berygameš</postava><postava>Škvorkidu<postavy/></postava>
+</kniha>
+<kniha>
+    <název jazyk=cz>Pán prstenů: návrat Fišera
+    <název jazyk=en>Lord of the rings: return of Fišer
+    <Autor>Beránek Pavel</autor>
+    <popis>
+        Kniha o partě ajťáků, kteří se chystají na výpravu na zápočet na Fakultu Osudu.
+    </popis>
+</kniha>
+<?xml version="1.0" encoding="UTF-8"?>
+```
+
+### 1.Cv3 XML služby (10 minut)
+
+
+
+### 1.Cv4 Návrh XML stromu (10 minut)
+
+XML nemá žádný model pro grafickou reprezentaci, jako například třídy v OOP jako diagramy tříd z jazyka UML. Přesto by se nám nějaký alespoň primitivní grafický model
+pro přemýšlení nad návrhem, komunikaci o datovém modelu v týmu nebo dokumentaci hodil. Jelikož XML představuje datovou strukturu, kde nalezneme prvotní značku (kořen), 
+značky, obsahující další značky, (větve) a značky, neobsahující žádné další značky, (listy), tak se nabízí možnost zakreslit XML jako stromovou strukturu.
 
 Na stránce [W3 Schools XML Tree](https://w3schools.com/xml/xml_tree.asp) vidíte grafickou reprezentaci xml kódu pomocí stromové struktury. Pod obrázkem naleznete
 kód k příslušnému stromu. Vaším úkolem je vytvořit návrh struktury xml dokumentu podle následující klientské specifikace:
 > Chtěl bych vytvořit webovou aplikaci pro receptář alkoholových koktejlů. Kdokoliv, kdo otevře webovou stránku, tak může nahrát XML soubor s vlastním receptem.
-> Klient může naráz nahrát více receptů a o každém receptu budu potřebovat ukládat stejné informace, jako jsou na následující webové stránce: [Míchané drínky](https://michanedrinky.cz).
+> Klient může naráz nahrát více receptů a o každém receptu budu potřebovat ukládat stejné informace, jako jsou na následující webové stránce: [Míchané drinky](https://michanedrinky.cz).
 
-### 1.Cv4 XML DTD
+### 1.Cv5 Validní XML (40 minut)
 
-### 1.Cv5 XSD Schema
+Ve cvičení 1.Cv2 jste zkoušeli upravit XML soubor tak, aby byl "Well formed". Kromě "Well formed" by měl být XML soubor ještě validní. Aby byl dokument XML dokument
+validní, pak se musí jeho struktura řídit šablonou ve formátu DTD (Document Type Definition) nebo XML Schema (novější typ šablony, která je sama o sobě XML). 
+Představit si to lze obdobně jako v objektově orientovaném programování, kde v našem případě šablona odpovídá třídě a XML dokument odpovídá objektu (instanci třídy).
+
+Ukázku DTD naleznete na stránce: [W3Schools XML DTD](https://w3schools.com/xml/xml_dtd.asp)
+
+Ukázku XML Schema naleznete na stránce: [W3Schools XML Schema](https://w3schools.com/xml/xml_schema.asp)
+
+
 
 ## Domácí cvičení
 
