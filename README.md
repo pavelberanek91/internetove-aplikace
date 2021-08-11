@@ -11,19 +11,19 @@ Z důvodu úzkého zaměření na technologie nalezne posluchač v rozšiřujíc
 
 |lekce|datum|obsah|video|
 |---|---|---|---|
-|01|xx.xx.xx|Značkovací jazyk XML, specifikace XML - XML, DTD, XMD Schema|xxx|
-|02|xx.xx.xx|Zobrazení XML souborů - XSLT, XPath|xxx|
-|03|xx.xx.xx|XML DOM, Javascript a XML DOM - XML DOM, XQuery|xxx|
-|04|xx.xx.xx|HTML DOM, Javascript a HTML|xxx|
-|05|xx.xx.xx|Jazyk PHP|xxx| 
-|06|xx.xx.xx|PHP (ukládání dat, Cookie a session)|xxx| 
-|07|xx.xx.xx|PHP (grafika) - SVG, Canvas, Bootstrap|xxx|
-|08|xx.xx.xx|PHP (práce s objekty) - OOP PHP|xxx|
-|09|xx.xx.xx|PHP a XML DOM, PHP (simpleXML)|xxx| 
-|10|xx.xx.xx|PHP a AJAX|xxx|
-|11|xx.xx.xx|PHP (práce s databázemi) - MariaDB a PHP|xxx|
-|12|xx.xx.xx|PHP - webové aplikace|xxx|
-|13|xx.xx.xx|Webové technologie|xxx|
+|01|xx.xx.xx|Značkovací jazyk XML, specifikace XML - XML, DTD|xxx|
+|02|xx.xx.xx|Popisný jazyk XSD - XML Schemata|xxx|
+|03|xx.xx.xx|Zobrazení XML souborů - XSLT, XPath|xxx|
+|04|xx.xx.xx|XML DOM, Javascript a XML DOM - XML DOM, XQuery|xxx|
+|05|xx.xx.xx|HTML DOM, Javascript a HTML|xxx|
+|06|xx.xx.xx|Jazyk PHP|xxx| 
+|07|xx.xx.xx|PHP (ukládání dat, Cookie a session)|xxx| 
+|08|xx.xx.xx|PHP (grafika) - SVG, Canvas, Bootstrap|xxx|
+|09|xx.xx.xx|PHP (práce s objekty) - OOP PHP|xxx|
+|10|xx.xx.xx|PHP a XML DOM, PHP (simpleXML)|xxx| 
+|11|xx.xx.xx|PHP a AJAX|xxx|
+|12|xx.xx.xx|PHP (práce s databázemi) - MariaDB a PHP|xxx|
+|13|xx.xx.xx|PHP - webové aplikace|xxx|
 
 ### Rozšiřující lekce
 Tato tabulka obsahuje odkazy na další užitečné lekce z oblasti vývoje internetových aplikací.
